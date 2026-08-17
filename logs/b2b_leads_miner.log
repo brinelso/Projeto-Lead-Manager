@@ -1,0 +1,27 @@
+2026-08-17 15:28:13 | INFO     | __main__ | Iniciando prospecção: bairro='Vila Madalena', cidade='São Paulo', nichos=['loja_roupas']
+2026-08-17 15:28:14 | INFO     | src.overpass_client | Bairro 'Vila Madalena' geocodificado: bbox=(-23.55150, -23.54150, -46.69612, -46.68612)
+2026-08-17 15:28:14 | INFO     | src.overpass_client | Consultando Overpass API para nicho='loja_roupas' ...
+2026-08-17 15:28:23 | ERROR    | src.overpass_client | Falha ao consultar Overpass API (nicho=loja_roupas): 504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpreter
+2026-08-17 15:28:23 | INFO     | src.overpass_client | 0 estabelecimentos encontrados em 'Vila Madalena'.
+2026-08-17 15:28:23 | WARNING  | src.pipeline | Nenhum estabelecimento encontrado para os critérios informados.
+2026-08-17 15:28:23 | WARNING  | src.data_exporter | Nenhum lead para exportar.
+2026-08-17 15:28:23 | INFO     | src.data_exporter | Arquivo exportado: /Users/joaogabrielvaz/Documents/Unifesp/SciTecJR/Projeto Lead/b2b-leads-miner/output/leads_vila_madalena_20260817_152823.csv (0 leads)
+2026-08-17 15:42:54 | INFO     | __main__ | Iniciando prospecção: bairro='Eugênio de Melo', cidade='São José dos Campos', nichos=['loja_roupas']
+2026-08-17 15:42:54 | INFO     | src.overpass_client | Bairro 'Eugênio de Melo' geocodificado: bbox=(-23.15070, -23.13558, -45.78994, -45.77868)
+2026-08-17 15:42:54 | INFO     | src.overpass_client | Consultando Overpass API para nicho='loja_roupas' ...
+2026-08-17 15:43:04 | ERROR    | src.overpass_client | Falha ao consultar Overpass API (nicho=loja_roupas): 504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpreter
+2026-08-17 15:43:04 | INFO     | src.overpass_client | 0 estabelecimentos encontrados em 'Eugênio de Melo'.
+2026-08-17 15:43:04 | WARNING  | src.pipeline | Nenhum estabelecimento encontrado para os critérios informados.
+2026-08-17 15:43:04 | WARNING  | src.data_exporter | Nenhum lead para exportar.
+2026-08-17 15:43:04 | INFO     | src.data_exporter | Arquivo exportado: /Users/joaogabrielvaz/Documents/Unifesp/SciTecJR/Projeto Lead/b2b-leads-miner/output/leads_eugênio_de_melo_20260817_154304.csv (0 leads)
+2026-08-17 15:45:45 | INFO     | __main__ | Iniciando prospecção: bairro='Eugênio de Melo', cidade='São José dos Campos', nichos=['loja_roupas']
+2026-08-17 15:45:45 | INFO     | src.overpass_client | Bairro 'Eugênio de Melo' geocodificado: bbox=(-23.15070, -23.13558, -45.78994, -45.77868)
+2026-08-17 15:45:45 | INFO     | src.overpass_client | Consultando Overpass API para nicho='loja_roupas' ...
+2026-08-17 15:46:17 | ERROR    | src.overpass_client | Falha ao consultar Overpass API (nicho=loja_roupas): HTTPSConnectionPool(host='overpass.kumi.systems', port=443): Read timed out. (read timeout=30)
+2026-08-17 15:46:17 | INFO     | src.overpass_client | 0 estabelecimentos encontrados em 'Eugênio de Melo'.
+2026-08-17 15:46:17 | WARNING  | src.pipeline | Nenhum estabelecimento encontrado para os critérios informados.
+2026-08-17 15:46:17 | WARNING  | src.data_exporter | Nenhum lead para exportar.
+2026-08-17 15:46:17 | INFO     | src.data_exporter | Arquivo exportado: /Users/joaogabrielvaz/Documents/Unifesp/SciTecJR/Projeto Lead/b2b-leads-miner/output/leads_eugênio_de_melo_20260817_154617.csv (0 leads)
+2026-08-17 16:05:36 | WARNING  | src.ai_analyzer | Falha na análise de IA para 'Loja Exemplo Sem Site': The read operation timed out
+2026-08-17 16:05:51 | WARNING  | src.ai_analyzer | Falha na análise de IA para 'Salão Exemplo Sem Contato': The read operation timed out
+2026-08-17 16:06:05 | INFO     | src.data_exporter | Arquivo exportado: /Users/joaogabrielvaz/Documents/Unifesp/SciTecJR/Projeto Lead/b2b-leads-miner/output/leads_teste_offline_20260817_160605.csv (3 leads)
